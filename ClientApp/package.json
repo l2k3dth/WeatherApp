@@ -7,7 +7,6 @@
     "axios": "0.21.4",
     "bootstrap": "^5.1.1",
     "dotenv": "^10.0.0",
-    "jest-puppeteer": "^6.0.0",
     "jquery": "^3.4.1",
     "lodash": "4.17.21",
     "merge": "^1.2.1",
@@ -43,9 +42,7 @@
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/",
-    "install": "install",
-    "e2e": "cd e2e && jest"
+    "lint": "eslint ./src/"
   },
   "jest": {
     "testTimeout": 20000
