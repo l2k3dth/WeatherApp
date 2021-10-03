@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "styled-components@5.3.1",
+      "destination": "ClientApp/styled-components/"
+    }
+  ]
+}
