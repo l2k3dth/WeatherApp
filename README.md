@@ -10,7 +10,7 @@
 
 ## Testing
 
-* Just a note on the E2E tests, as they were done using Selenium web driver i have included the `chromedriver` to be placed into the \WeatherApp.Tests.E2E\bin\Debug\netcoreapp3.1 directory, this driver will only work with chrome 94. if you have another version of chrome installed you can download the correct web driver from here https://chromedriver.chromium.org/downloads
+* Just a note on the E2E tests, as they were done using Selenium web driver i have included the `chromedriver.exe` to be placed into the \WeatherApp.Tests.E2E\bin\Debug\netcoreapp3.1 directory, this driver will only work with chrome 94. if you have another version of chrome installed you can download the correct web driver from here https://chromedriver.chromium.org/downloads
 
 ##misc
 * Due to only having access to VS on my work laptop i have had to omit using Docker due to the inability to install Wsl from the Microsoft store which has disabled by group policy
