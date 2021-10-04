@@ -71,7 +71,6 @@ namespace WeatherApp.Web
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseSpaStaticFiles();
             app.UseCors(_policyName);
             app.UseSwagger();
             app.UseSwaggerUI(c =>
